@@ -1,7 +1,9 @@
 python-patterns
 ===============
 
-A collection of design patterns and idioms in Python.
+Tập hợp của design patterns và idioms trong Python được môt tả sử dụng jupyter notebook.
+
+Code tham khảo từ branch master và từ trang web [https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm](https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
 
 Current Patterns
 ----------------
@@ -13,7 +15,7 @@ __Creational Patterns__:
 | [abstract_factory](patterns/creational/abstract_factory.py) | use a generic function with specific factories |
 | [borg](patterns/creational/borg.py) | a singleton with shared-state among instances |
 | [builder](patterns/creational/builder.py) | instead of using multiple constructors, builder object receives parameters and returns constructed objects |
-| [factory_method](creational/factory-pattern.ipynb) | sử dụng một function/method để tạo các đối tượng ( instances) |
+| [factory_method](creational/factory-pattern.ipynb) | sử dụng một function/method để tạo các đối tượng (instances) |
 | [lazy_evaluation](patterns/creational/lazy_evaluation.py) | lazily-evaluated property pattern in Python |
 | [pool](patterns/creational/pool.py) | preinstantiate and maintain a group of instances of the same type |
 | [prototype](patterns/creational/prototype.py) | use a factory and clones of a prototype for new instances (if instantiation is expensive) |

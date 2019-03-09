@@ -74,6 +74,6 @@ Có 3 nhóm chính sau:
 
 # 4. Để học Design Patterns cần có gì?
  
-Bốn đặc tính của OOP: Thừa kế, Đa hình, Trừu tượng, Bao đóng.
+[Bốn đặc tính của OOP](oop.md): Thừa kế, Đa hình, Trừu tượng, Bao đóng.
 Khái niệm interface và abstract. Cái này cực kỳ quan trọng, để hiểu và áp dụng 2 khái niệm này có thể sẽ mất một thời gian, nhưng khi bạn nắm chắc nó bạn sẽ thấy nó thực sự cần thiết.
 Bỏ tư duy theo lối cấu trúc, nâng tư duy hoàn toàn OOP.

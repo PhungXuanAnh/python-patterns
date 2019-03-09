@@ -8,7 +8,7 @@ Tham khảo từ branch master và từ các trang web:
 - [https://sourcemaking.com/design_patterns](https://sourcemaking.com/design_patterns)
 - [https://tedu.com.vn/design-pattern/chuong-1-tong-quan-cac-mau-design-pattern-45.html](https://tedu.com.vn/design-pattern/chuong-1-tong-quan-cac-mau-design-pattern-45.html)
 
-Trước khi đi sâu vào các pattern, hãy tìm hiểu design pattern là gì [tại đây](documents/định_nghĩa.md)
+Trước khi đi sâu vào các pattern, hãy tìm hiểu design pattern là gì [tại đây](documents/design_partterns.md)
 
 Current Patterns
 ----------------

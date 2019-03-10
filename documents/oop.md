@@ -4,6 +4,7 @@
   - [**Tính đa hình (polymorphism)**](#tính-đa-hình-polymorphism)
   - [**Tính trừu tượng (abstraction)**](#tính-trừu-tượng-abstraction)
 - [Ví dụ minh họa](#ví-dụ-minh-họa)
+- [Tham khảo](#tham-khảo)
 
 # 4 tính chất của lập trình hướng đối tượng
 
@@ -34,7 +35,20 @@ Tính kế thừa là khả năng cho phép ta xây dựng một lớp mới d�
 
 # Ví dụ minh họa
 
+Ví dụ dưới tôi làm với ngôn ngữ Python
+
 - [animal.py](opp_example/animal.py): Tạo abstract class *Animal* có phương thức *say_hello*, abstract class này thể hiện **tính trừu tượng**, có nghĩa ta định ra rằng dù là con vật gì đi nữa thì nó cũng có phương thức *say_hello*.
 - [cat.py](opp_example/cat.py), [dog.py](opp_example/dog.py): Tạo 2 lớp *Cat* và *Dog* kế thừa từ *Animal*. Khi khởi tạo chúng sẽ có tên. Chúng **override** lại phương thức say_*hello* để chào hỏi theo cách riêng của chúng. Điều này thể hiện **tính đóng gói** (đóng gói biến tên và phương thức *say_hello* với nhau) và **tính thừa kế ** (*Cat* và *Dog* mang đặc điểm chung là có *say_hello* từ *Animal*).
 - [zoo.py](opp_example/zoo.py), [opp_demo.py](opp_example/oop_demo.py): Tạo lớp *Zoo* để quản lí nhiều *Animal*, có (1) phương thức *add*, *remove* để thêm, bớt các *Animal* (các đối tượng của các lớp thừa kế từ *Animal*), (2) phương thức *show_list_animal* để gọi *say_hello* của tất cả đối tượng nó quản lí. Điều này thể hiện **tính đa hình**, Zoo gọi chỉ gọi một phương thức **say_hello**, nhưng tùy con vật mà lời chào hỏi sẽ khác nhau.
 
+Chạy test:
+
+```shell
+$python oop_demo.py
+Hi, I am Tom
+Hello, My name is Milu
+```
+
+# Tham khảo
+
+[https://gpcoder.com/2232-4-tinh-chat-cua-lap-trinh-huong-doi-tuong-trong-java/](https://gpcoder.com/2232-4-tinh-chat-cua-lap-trinh-huong-doi-tuong-trong-java/)

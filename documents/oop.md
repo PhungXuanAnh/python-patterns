@@ -1,3 +1,10 @@
+- [4 tính chất của lập trình hướng đối tượng](#4-tính-chất-của-lập-trình-hướng-đối-tượng)
+  - [**Tính đóng gói (encapsulation)** và che giấu thông tin (information hiding)](#tính-đóng-gói-encapsulation-và-che-giấu-thông-tin-information-hiding)
+  - [**Tính kế thừa (inheritance)**](#tính-kế-thừa-inheritance)
+  - [**Tính đa hình (polymorphism)**](#tính-đa-hình-polymorphism)
+  - [**Tính trừu tượng (abstraction)**](#tính-trừu-tượng-abstraction)
+- [Ví dụ minh họa](#ví-dụ-minh-họa)
+
 # 4 tính chất của lập trình hướng đối tượng
 
 ## **Tính đóng gói (encapsulation)** và che giấu thông tin (information hiding)

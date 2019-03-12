@@ -4,6 +4,7 @@ python-patterns
 Tập hợp của design patterns và idioms trong Python được môt tả sử dụng jupyter notebook.
 
 Tham khảo từ branch master và từ các trang web:
+- [https://www.tutorialspoint.com/python_design_patterns](https://www.tutorialspoint.com/python_design_patterns)
 - [https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm](https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
 - [https://sourcemaking.com/design_patterns](https://sourcemaking.com/design_patterns)
 - [https://tedu.com.vn/design-pattern/chuong-1-tong-quan-cac-mau-design-pattern-45.html](https://tedu.com.vn/design-pattern/chuong-1-tong-quan-cac-mau-design-pattern-45.html)

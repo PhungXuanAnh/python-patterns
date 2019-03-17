@@ -9,7 +9,7 @@ Tham khảo từ branch forked và từ các trang web:
 - [https://sourcemaking.com/design_patterns](https://sourcemaking.com/design_patterns)
 - [Design Pattern for dummies](https://tedu.com.vn/design-pattern/chuong-1-tong-quan-cac-mau-design-pattern-45.html)
 
-**Chý ý**: Trước khi đi sâu vào các pattern, hãy tìm hiểu design pattern là gì [tại đây](documents/design_partterns.md)
+**Chý ý**: Trước khi đi sâu vào các pattern, hãy tìm hiểu **design pattern** là gì [tại đây](documents/design_partterns.md) và tìm hiểu **4 tính chất của hướng đối tượng** [tại đây](documents/oop.ipynb)
 
 Current Patterns
 ----------------

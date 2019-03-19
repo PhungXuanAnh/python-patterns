@@ -3,13 +3,7 @@ python-patterns
 
 Tập hợp của design patterns và idioms trong Python được môt tả sử dụng jupyter notebook.
 
-Tham khảo từ branch forked và từ các trang web:
-- [https://www.tutorialspoint.com/python_design_patterns](https://www.tutorialspoint.com/python_design_patterns)
-- [https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm](https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
-- [https://sourcemaking.com/design_patterns](https://sourcemaking.com/design_patterns)
-- [Design Pattern for dummies](https://tedu.com.vn/design-pattern/chuong-1-tong-quan-cac-mau-design-pattern-45.html)
-
-**Chý ý**: Trước khi đi sâu vào các pattern, hãy tìm hiểu **design pattern** là gì [tại đây](documents/design_partterns.md) và tìm hiểu **4 tính chất của hướng đối tượng** [tại đây](documents/oop.ipynb)
+**Chý ý**: Trước khi đi sâu vào các pattern, hãy tìm hiểu **design pattern** là gì [tại đây](https://phungxuananh.github.io/programing/design-pattern-definition/) và tìm hiểu **4 tính chất của hướng đối tượng** [tại đây](documents/oop.ipynb)
 
 Current Patterns
 ----------------
@@ -18,7 +12,7 @@ __Creational Patterns__:
 
 | Pattern | Description |
 |:-------:| ----------- |
-| [abstract_factory](creational/abstract_factory.ipynb) | use a generic function with specific factories |
+| [abstract_factory](creational/abstract_factory.ipynb) |  |
 | [singleton](creational/singleton.ipynb) | cách để tạo một đối tượng toàn cục duy nhất cho cả hệ thống |
 | [builder](creational/builder.ipynb) | instead of using multiple constructors, builder object receives parameters and returns constructed objects |
 | [factory_method](creational/factory-pattern.ipynb) | sử dụng một function/method để tạo đối tượng |
@@ -92,37 +86,10 @@ Videos
 
 [Pluggable Libs Through Design Patterns](https://www.youtube.com/watch?v=PfgEU3W0kyU)
 
+# Tham khảo 
 
-Contributing
-------------
-When an implementation is added or modified, please review the following guidelines:
-
-##### Output
-All files with example patterns have `### OUTPUT ###` section at the bottom 
-(migration to OUTPUT = """...""" is in progress).
-
-Run `append_output.sh` (e.g. `./append_output.sh borg.ipynb`) to generate/update it.
-
-##### Docstrings
-Add module level description in form of a docstring with links to corresponding references or other useful information.
-
-Add "Examples in Python ecosystem" section if you know some. It shows how patterns could be applied to real-world problems.
-
-[facade.ipynb](patterns/structural/facade.ipynb) has a good example of detailed description,
-but sometimes the shorter one as in [template.ipynb](patterns/behavioral/template.ipynb) would suffice.
-
-In some cases class-level docstring with doctest would also help (see [adapter.ipynb](patterns/structural/adapter.ipynb))
-but readable OUTPUT section is much better.
-
-
-##### Python2/3 compatibility
-Try to keep it (discussion is held in [issue #208](https://github.com/faif/python-patterns/issues/208))
-- use new style classes (inherit from `object`)
-- use `from __future__ import print_function`
-
-##### Update README
-When everything else is done - update corresponding part of README.
-
-
-##### Travis CI
-Please run `flake8` and `pytest` commands locally to be sure your changes will pass CI .
+- [https://www.tutorialspoint.com/python_design_patterns](https://www.tutorialspoint.com/python_design_patterns)
+- [https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm](https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
+- [https://sourcemaking.com/design_patterns](https://sourcemaking.com/design_patterns)
+- [Design Pattern for dummies](https://tedu.com.vn/design-pattern/chuong-1-tong-quan-cac-mau-design-pattern-45.html)
+-  branch `forked`

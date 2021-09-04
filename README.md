@@ -1,14 +1,30 @@
-python-patterns
-===============
 
-Tập hợp của design patterns và idioms trong Python được môt tả sử dụng jupyter notebook.
+Collection design patterns and idioms in Python described by Jupyter Notebook.
+---
 
-**Chý ý**: Trước khi đi sâu vào các pattern, hãy tìm hiểu **design pattern** là gì [tại đây](https://phungxuananh.github.io/programing/design-pattern-definition/) và tìm hiểu **4 tính chất của hướng đối tượng** [tại đây](documents/oop.ipynb)
+- [1. what is design pattern ?](#1-what-is-design-pattern-)
+- [2. 4 characteristics of OOP (object oriented programming)](#2-4-characteristics-of-oop-object-oriented-programming)
+- [3. Current Patterns](#3-current-patterns)
+  - [3.1. Creational Patterns](#31-creational-patterns)
+  - [3.2. License Structural Patterns](#32-license-structural-patterns)
+  - [3.3. Behavioral Patterns](#33-behavioral-patterns)
+  - [3.4. Design for Testability Patterns](#34-design-for-testability-patterns)
+  - [3.5. Fundamental Patterns](#35-fundamental-patterns)
+  - [3.6. Others](#36-others)
+  - [3.7. Videos](#37-videos)
+- [4. References](#4-references)
 
-Current Patterns
-----------------
+# 1. what is design pattern ?
 
-__Creational Patterns__:
+[what is design pattern ?](https://phungxuananh.github.io/programing/design-pattern-definition/) 
+
+# 2. 4 characteristics of OOP (object oriented programming)
+
+[4 characteristics of OOP](documents/oop.ipynb)
+
+# 3. Current Patterns
+
+## 3.1. Creational Patterns
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -20,7 +36,7 @@ __Creational Patterns__:
 | [pool](creational/pool.ipynb) | preinstantiate and maintain a group of instances of the same type |
 | [prototype](creational/prototype.ipynb) | use a factory and clones of a prototype for new instances (if instantiation is expensive) |
 
-__Structural Patterns__:
+## 3.2. License Structural Patterns
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -35,7 +51,7 @@ __Structural Patterns__:
 | [mvc](patterns/structural/mvc.ipynb) | model<->view<->controller (non-strict relationships) |
 | [proxy](patterns/structural/proxy.ipynb) | an object funnels operations to something else |
 
-__Behavioral Patterns__:
+## 3.3. Behavioral Patterns
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -55,19 +71,19 @@ __Behavioral Patterns__:
 | [template](patterns/behavioral/template.ipynb) | an object imposes a structure but takes pluggable components |
 | [visitor](patterns/behavioral/visitor.ipynb) | invoke a callback for all items of a collection |
 
-__Design for Testability Patterns__:
+## 3.4. Design for Testability Patterns
 
 | Pattern | Description |
 |:-------:| ----------- |
 | [setter_injection](patterns/dft/setter_injection.ipynb) | the client provides the depended-on object to the SUT via the setter injection (implementation variant of dependency injection) |
 
-__Fundamental Patterns__:
+## 3.5. Fundamental Patterns 
 
 | Pattern | Description |
 |:-------:| ----------- |
 | [delegation_pattern](patterns/fundamental/delegation_pattern.ipynb) | an object handles a request by delegating to a second object (the delegate) |
 
-__Others__:
+## 3.6. Others
 
 | Pattern | Description |
 |:-------:| ----------- |
@@ -76,8 +92,8 @@ __Others__:
 | [hsm](patterns/other/hsm/hsm.ipynb) | hierarchical state machine - non gang of four pattern |
 
 
-Videos
-------
+## 3.7. Videos
+
 [Design Patterns in Python by Peter Ullrich](https://www.youtube.com/watch?v=bsyjSW46TDg)
 
 [Sebastian Buczyński - Why you don't need design patterns in Python?](https://www.youtube.com/watch?v=G5OeYHCJuv0)
@@ -86,7 +102,7 @@ Videos
 
 [Pluggable Libs Through Design Patterns](https://www.youtube.com/watch?v=PfgEU3W0kyU)
 
-# Tham khảo 
+# 4. References
 
 - [https://www.tutorialspoint.com/python_design_patterns](https://www.tutorialspoint.com/python_design_patterns)
 - [https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm](https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm)
